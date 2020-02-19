@@ -8,7 +8,7 @@ CREATE DATABASE IF NOT EXISTS codeup_test_db;
 use codeup_test_db;
 
 -- Drop the 'product' table if it exists
-DROP TABLE IF EXISTS albums; -- probably should be named album
+DROP TABLE IF EXISTS albums;
 
 -- Create the 'albums' table
 CREATE TABLE albums (
