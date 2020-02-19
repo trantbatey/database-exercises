@@ -24,3 +24,6 @@ CREATE TABLE albums (
                         CONSTRAINT uc_album UNIQUE (artist, album)
 );
 
+-- add a row of data
+INSERT INTO albums (artist, album, released, genre, total_certified_copies, claimed_sales, refs)
+values ('Eagles', 'Hotel California', '1978', 'rock', 301.1, 300100000, 'BR%$(');
